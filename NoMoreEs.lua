@@ -1,5 +1,5 @@
-to_big = to_big or function(x) return x end
-to_number = to_number or function(x) return x end
+to_big = function(x) return x end
+to_number = function(x) return x end
 
 local ref = SMODS.get_blind_amount
 function SMODS.get_blind_amount(ante)

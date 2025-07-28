@@ -24,7 +24,7 @@ match_indent = true
 target = "functions/state_events.lua"
 pattern = '''hand_chips\*mult'''
 position = "at"
-payload = '''Entropy.get_chipmult_score(hand_chips, mult)'''
+payload = '''NES.get_chipmult_score(hand_chips, mult)'''
 match_indent = true
 
 [[patches]]
