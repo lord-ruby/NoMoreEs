@@ -1,0 +1,16 @@
+{
+    "name": "No More E's!",
+    "id": "nes",
+    "version": "1.0.0",
+    "website_url": "",
+    "description": "Limits score to 1e10",
+    "prefix": "nes",
+    "author": ["Ruby"],
+    "main_file": "NoMoreEs.lua",
+    "priority": 10000000000,
+    "badge_colour": "FE0001",
+    "dependencies": [
+    ],
+    "conflicts": [
+    ]
+}
