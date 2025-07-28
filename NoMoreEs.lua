@@ -1,4 +1,7 @@
 to_big = function(x) return x end
+function Big:create(x, ...)
+	return x
+end
 function to_number(x)
 	if type(x) == 'table' and (getmetatable(x) == BigMeta or getmetatable(x) == OmegaMeta) then
 	  return getmetatable(x) and getmetatable(x).__index.to_number(x) or 0
